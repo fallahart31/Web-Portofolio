@@ -47,15 +47,23 @@ li a :hover:not(.active) {
     ul li {float: none;}
     .logo {float: none;}
 }
+.row {
+  display: grid;
+  grid-gap: 10px;
+  place-items: center;
+}
+
+.column{
+  padding: 5px;
+}
 
 img {
-    width: 70%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 200px;
-}
-.img .text1{
-  border-radius: none;
+  width: 70%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  border: 2px dashed gray;
+    
 }
 
 .content1 {
